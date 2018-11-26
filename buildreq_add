@@ -1,0 +1,8 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+tcl
+tk
+tcl-dev
+tk-dev
+libpng-dev
+zlib-dev

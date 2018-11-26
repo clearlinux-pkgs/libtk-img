@@ -1,0 +1,7 @@
+1.4.7+dfsg
+freeglut-dev
+libXScrnSaver-dev
+libXft-dev
+mesa-dev
+pkgconfig(ice)
+pkgconfig(x11)

@@ -1,0 +1,11 @@
+--- Img-Source-1.4.7/Makefile.in~	2017-12-30 16:09:43.000000000 +0000
++++ Img-Source-1.4.7/Makefile.in	2018-11-26 08:30:44.276420729 +0000
+@@ -164,7 +164,7 @@
+ 		$(INSTALL_DATA) $$p $(INSTALL_ROOT)$(includedir)/`basename $$p` ; \
+ 	done; fi
+ 
+-install: install-libraries install-man
++install: install-libraries 
+ 
+ bindist:
+ 
