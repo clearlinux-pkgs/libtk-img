@@ -4,7 +4,7 @@
 #
 Name     : libtk-img
 Version  : 1.4.7+dfsg
-Release  : 1
+Release  : 2
 URL      : http://deb.debian.org/debian/pool/main/libt/libtk-img/libtk-img_1.4.7+dfsg.orig.tar.xz
 Source0  : http://deb.debian.org/debian/pool/main/libt/libtk-img/libtk-img_1.4.7+dfsg.orig.tar.xz
 Summary  : zlib compression library
