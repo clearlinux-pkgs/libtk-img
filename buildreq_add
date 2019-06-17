@@ -4,5 +4,6 @@ tcl
 tk
 tcl-dev
 tk-dev
+tk-staticdev
 libpng-dev
 zlib-dev

@@ -1,11 +1,11 @@
---- Img-Source-1.4.7/Makefile.in~	2017-12-30 16:09:43.000000000 +0000
-+++ Img-Source-1.4.7/Makefile.in	2018-11-26 08:30:44.276420729 +0000
-@@ -164,7 +164,7 @@
+--- libtk-img.orig/Makefile.in	2019-06-17 06:19:18.842047116 +0000
++++ libtk-img/Makefile.in	2019-06-17 06:19:45.567468167 +0000
+@@ -163,7 +163,7 @@
  		$(INSTALL_DATA) $$p $(INSTALL_ROOT)$(includedir)/`basename $$p` ; \
  	done; fi
  
 -install: install-libraries install-man
-+install: install-libraries 
++install: install-libraries
  
  bindist:
  

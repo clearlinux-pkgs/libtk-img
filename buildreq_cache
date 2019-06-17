@@ -1,4 +1,5 @@
-1.4.7+dfsg
+1.4.8+dfsg
+fontconfig-dev
 freeglut-dev
 libXScrnSaver-dev
 libXft-dev
