@@ -4,7 +4,7 @@
 #
 Name     : libtk-img
 Version  : 1.4.8+dfsg
-Release  : 3
+Release  : 4
 URL      : http://deb.debian.org/debian/pool/main/libt/libtk-img/libtk-img_1.4.8+dfsg.orig.tar.xz
 Source0  : http://deb.debian.org/debian/pool/main/libt/libtk-img/libtk-img_1.4.8+dfsg.orig.tar.xz
 Summary  : Loads and saves PNG files

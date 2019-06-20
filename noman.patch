@@ -1,5 +1,7 @@
---- libtk-img.orig/Makefile.in	2019-06-17 06:19:18.842047116 +0000
-+++ libtk-img/Makefile.in	2019-06-17 06:19:45.567468167 +0000
+Index: Img-1.4.8/Makefile.in
+===================================================================
+--- Img-1.4.8.orig/Makefile.in	2018-01-01 22:33:36.000000000 +0000
++++ Img-1.4.8/Makefile.in	2019-06-20 14:20:35.028676098 +0000
 @@ -163,7 +163,7 @@
  		$(INSTALL_DATA) $$p $(INSTALL_ROOT)$(includedir)/`basename $$p` ; \
  	done; fi
