@@ -3,6 +3,7 @@
 tcl
 tk
 tcl-dev
+tcl-staticdev
 tk-dev
 tk-staticdev
 libpng-dev

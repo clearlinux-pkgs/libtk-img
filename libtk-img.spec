@@ -4,7 +4,7 @@
 #
 Name     : libtk-img
 Version  : 1.4.8+dfsg
-Release  : 4
+Release  : 5
 URL      : http://deb.debian.org/debian/pool/main/libt/libtk-img/libtk-img_1.4.8+dfsg.orig.tar.xz
 Source0  : http://deb.debian.org/debian/pool/main/libt/libtk-img/libtk-img_1.4.8+dfsg.orig.tar.xz
 Summary  : Loads and saves PNG files
@@ -20,9 +20,11 @@ BuildRequires : libXScrnSaver-dev
 BuildRequires : libXft-dev
 BuildRequires : libpng-dev
 BuildRequires : mesa-dev
+BuildRequires : pkgconfig(ice)
 BuildRequires : pkgconfig(x11)
 BuildRequires : tcl
 BuildRequires : tcl-dev
+BuildRequires : tcl-staticdev
 BuildRequires : tk
 BuildRequires : tk-dev
 BuildRequires : tk-staticdev
@@ -70,8 +72,8 @@ license components for the libtk-img package.
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-export LANG=C
-export SOURCE_DATE_EPOCH=1560752885
+export LANG=C.UTF-8
+export SOURCE_DATE_EPOCH=1562975149
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -84,7 +86,7 @@ export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1560752885
+export SOURCE_DATE_EPOCH=1562975149
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/libtk-img
 cp compat/libpng/LICENSE %{buildroot}/usr/share/package-licenses/libtk-img/compat_libpng_LICENSE
